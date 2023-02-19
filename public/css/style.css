@@ -1,0 +1,108 @@
+body{
+	margin: 0px;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/Merriweather/Merriweather-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Source_Serif_Pro';
+  src: url('../fonts/Source_Serif_Pro/SourceSerifPro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+header{
+	padding-top: 50px;
+	background-color: #2D455C;
+	height: 90px;
+}
+
+.nav-bar{
+	width: auto;
+	text-align: center;
+}
+
+.nav-bar a{
+	color: white;
+	font-family: "Merriweather";
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.main-container{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-self: stretch;
+}
+
+.box1{
+	background-color: #B2CAE1;
+	text-align: center;
+	font-family: "Source_Serif_Pro";
+	font-size: 100px;
+	color: #2D455C;
+	padding-top: 250px;
+
+}
+
+.box2{
+	background-color: white;
+	text-align: center;
+	color: #2D455C;
+	padding: 50px 90px 50px 90px;
+
+
+}
+.box2 h2{
+	font-family: "Source_Serif_Pro";
+	font-size: 40px;
+}
+
+.box2 p{
+	font-family: "Roboto";
+}
+
+
+.box3{
+	background-color: white;
+	text-align: center;
+	font-family: "Source_Serif_Pro";
+	font-size: 100px;
+	color: #2D455C;
+	padding: 300px 0 300px 0;
+
+}
+
+
+
+
+
+.box4{
+	padding: 50px 90px 50px 90px;
+}
+
+.box5{
+	background-color: #B2CAE1;
+	text-align: center;
+	font-family: "Source_Serif_Pro";
+	font-size: 100px;
+	color: #2D455C;
+	padding: 300px 0 300px 0;
+}
+
+.box6{
+	text-align: center;
+	padding: 0 40px 0 40px;
+}
+
+
+
+
